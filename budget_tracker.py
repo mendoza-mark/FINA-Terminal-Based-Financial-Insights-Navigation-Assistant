@@ -344,7 +344,7 @@ def view_expenses(data):
         pause()
 
 
-# --- 🆕 NEW FEATURE: SEARCH EXPENSES ---
+# --- SEARCH EXPENSES ---
 def search_expenses(data):
     """Advanced search/filter functionality for expenses."""
     clear_screen()
@@ -454,7 +454,7 @@ def search_expenses(data):
     pause()
 
 
-# --- 🆕 NEW FEATURE: BUDGET PREDICTION (AI-ISH) ---
+# --- BUDGET PREDICTION (AI-ISH) ---
 def budget_prediction(data):
     """Predicts future spending based on historical data."""
     clear_screen()
@@ -540,7 +540,7 @@ def budget_prediction(data):
     pause()
 
 
-# --- 🆕 NEW FEATURE: SMART SPENDING ADVICE ---
+# --- SMART SPENDING ADVICE ---
 def smart_spending_advice(data):
     """Provides personalized financial advice based on spending patterns."""
     clear_screen()
@@ -674,7 +674,7 @@ def smart_spending_advice(data):
     pause()
 
 
-# --- MONTHLY INSIGHTS (ORIGINAL + ENHANCED) ---
+# --- MONTHLY INSIGHTS  ---
 def monthly_insights(data):
     """Calculates and displays a smart text-based dashboard for the current month."""
     clear_screen()
@@ -1138,7 +1138,7 @@ def generate_line_graph_for_category(data, selected_category, save_path=None):
         return None
 
 
-# --- 🆕 NEW FEATURE: EXPORT GRAPHS AS PNG ---
+# --- EXPORT GRAPHS AS PNG ---
 def export_graph_menu(data):
     """Menu for exporting graphs as PNG files."""
     clear_screen()
@@ -1252,7 +1252,7 @@ def export_graph_menu(data):
     pause()
 
 
-# --- 🆕 NEW FEATURE: FULL PDF REPORT GENERATION ---
+# --- FULL PDF REPORT GENERATION ---
 def generate_full_report(data):
     """Generates a comprehensive PDF report with graphs and insights."""
     if not PDF_AVAILABLE:
@@ -1404,7 +1404,7 @@ def generate_full_report(data):
     pause()
 
 
-# --- 🆕 NEW FEATURE: BACKUP & RESTORE SYSTEM ---
+# --- BACKUP & RESTORE SYSTEM ---
 def backup_restore_menu(data):
     """Menu for backup and restore operations."""
     while True:
@@ -1649,7 +1649,7 @@ def delete_backup():
     pause()
 
 
-# --- CALCULATOR (ORIGINAL - UNCHANGED) ---
+# --- CALCULATOR ---
 def calculator():
     """A simple terminal-based financial calculator."""
     history = []
@@ -2067,15 +2067,6 @@ def about_page():
     print("                daily expenses, monitor budgeting limits,")
     print("                and gain visual insights into their spending")
     print("                patterns using interactive data graphs.")
-    print("-" * 68)
-    print(" 🆕 NEW FEATURES:")
-    print("    • Budget Prediction (AI-powered analytics)")
-    print("    • Smart Spending Advisor (Personalized tips)")
-    print("    • Advanced Search & Filter")
-    print("    • Backup & Restore System")
-    print("    • PNG/PDF Export Capabilities")
-    print("    • Full PDF Report Generation")
-    print("    • Enhanced Security (Password hashing, login limits)")
     print("-" * 68)
     print(" DEVELOPED BY : GROUP 2")
     print("                * Mark Droeid Mendoza")
